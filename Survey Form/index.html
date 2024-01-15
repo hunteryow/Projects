@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>
+      Charitable Merchant Services Survey Form
+    </title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+      <h1 id="title">
+        Charitable Merchant Services Survey Form
+      </h1>
+      <p id="description">
+        <em>
+          Thank you for taking the time to help us improve how we serve you!
+        </em>
+      </p>
+      <div class="form">
+      <form action="https://charitablemerchantservices.com" id="survey-form">
+        <fieldset>
+          <div>
+            <label id="name-label" for="name">
+              Business Name 
+          </div>
+          <div>
+            <input class="input-text" id="name" name="business-name" type="text" placeholder="Enter your business name" required/>
+            </label>
+          </div>
+          <div>
+            <label id="email-label" for="email">
+              Email
+          </div> 
+          <div>
+            <input class="input-text" id="email" name="email" type="email" placeholder="Enter your email" required/>
+            </label>
+          </div>
+          <div>
+            <label id="number-label" for="number">
+              Business Age (Years)
+          </div>
+          <div> 
+            <input class="input-text" id="number" name="business-age" type="number" min="0" max="300" placeholder="Enter years in business" required/>
+            </label>
+          </div>
+        </fieldset>
+        <fieldset>
+          <label for="role">
+            What is your role at your business? 
+          <select id="dropdown" name="role" required>
+            <option value="">
+              (select one)
+            </option>
+            <option value="1">
+              Owner/Founder
+            </option>
+            <option value="2">
+              Manager
+            </option>
+          </select>
+          </label>
+        </fieldset>
+        <fieldset>
+        <!--These "recommend" labels below may be incorrect. Check this.-->
+          <label for="recommend">Would you recommend Charitable Merchant Services to other business owners? 
+            <label for="yes">
+            <input id="yes" name="recommend" value="yes" type="radio"/>
+              Yes
+            </label>
+            <label for="no">
+            <input id="no" value="no" name="recommend" type="radio"/>
+              No
+            </label>
+          </label>
+        </fieldset>
+        <fieldset>
+          <label for="favorite-feature">What is your favorite-feature of working with us? 
+            <select id="favorite-feature" name="favorite-feature">
+              <option value="">
+                (select one)
+              </option>
+              <option value="1">
+                Our Rates
+              </option>
+              <option value="2">
+                Software/Hardware
+              </option>
+              <option value="3">
+                Customer Support
+              </option>
+            </select>
+          </label>
+        </fieldset>
+        <fieldset>
+          <label>
+            What would you like to see improved? (Check all that apply)
+            <label for="what-to-improve">
+            <input id="what-to-improve" name="what-to-improve" value="1" type="checkbox">
+              Software
+            </label>
+            <label for="what-to-improve">
+            <input id="what-to-improve" name="what-to-improve" value="1" type="checkbox">
+              Hardware
+            </label>
+            <label for="what-to-improve">
+            <input id="what-to-improve" name="what-to-improve" value="1" type="checkbox">
+              Customer Support
+            </label>
+          </label>
+        </fieldset>
+        <fieldset>
+          <label for="additional-comments">
+            Any comments or suggestions?
+          <textarea for="additional-comments" name="additional-comments" rows="3" cols="30" placeholder="Enter your comment here...">
+          </textarea>
+          </label>
+        </fieldset>
+        <input id="submit" type="submit" value="Submit"/>
+      </form>
+    </div>
+  </body>
+</html>

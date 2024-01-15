@@ -1,0 +1,39 @@
+body {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIIW94ymFIdQzFjueTavAnGJ52zoR3YQXDDFVvexbQ7L8JE5ZcqZzvCeZNtmF325xnOl4&usqp=CAU);
+  width: 40%;
+  margin: auto;
+  color: white;
+  background-color: rgba(0, 0, 0, 75%);
+}
+
+.form {
+  background-color: rgba(0, 0, 40, 75%);
+  height: 100%;
+}
+
+h1,
+p {
+  text-align: center;
+  color: rgb(20, 20, 20);
+  font-family: impact;
+}
+
+fieldset {
+  display: block;
+  padding: 20;
+}
+
+input {
+  width: 200px;
+}
+
+.input-text {
+  width: 100%;
+}
+
+#submit {
+  width: 60%;
+  display: block;
+  margin: auto;
+  height: 30px;
+}
