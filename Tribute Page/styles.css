@@ -1,0 +1,41 @@
+body {
+  background-color: white;
+  line-height: 2;
+}
+
+.first-div {
+  background-color: rgb(200 200 200);
+}
+.img-div {
+  background-color: white;
+  margin: auto;
+  padding: 20px;
+  width: 95%;
+}
+
+h1,
+h3,
+p {
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin: auto;
+  width: 50%;
+  max-width: 100%;
+}
+
+.third-div {
+  width: 30%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+li {
+  padding: 10px;
+}
+
+.tribute-link {
+  font-size: 20px;
+}
